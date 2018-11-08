@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
-    {
+{
         //基本定义和生成实例
         class Parent {
             constructor(name = 'mukewang') {
@@ -92,9 +82,3 @@
     	Parent.type="test";
         console.log('静态属性',Parent.type);
     }
-    </script>
-    
-    
-</body>
-
-</html>

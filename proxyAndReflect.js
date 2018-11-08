@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>ProxyAndReflect</title>
-</head>
-<body>
-	<script>
-		{
+{
 		   let obj={
 		   	time:'2018-11-8',
 		   	name:'net',
@@ -101,6 +93,3 @@
            console.log(person);
            console.info(person);
 		}
-	</script>
-</body>
-</html>

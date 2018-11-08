@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script>
-		{
+{
 			//数据结构横向对比，增删查改
 			let map=new Map();
             let array=[];
@@ -81,6 +73,3 @@
             delete obj['t'];
             console.log(map,set,obj);
 		}
-	</script>
-</body>
-</html>

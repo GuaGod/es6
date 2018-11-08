@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Promise</title>
-</head>
-<body>
-	<script>
-		{
+{
 			let ajax=function(callback){
                 console.log('执行');
                 setTimeout(function(){
@@ -88,9 +80,7 @@
 					document.body.appendChild(img);
 				})
 			}
-			Promise.all({
-				loadImg('http://i4.buimg.com/567751/2b07ee25b08930ba.png');
-			})
+			
 		}
 
 		{
@@ -107,6 +97,3 @@
 				})
 			}
 		}
-	</script>
-</body>
-</html>

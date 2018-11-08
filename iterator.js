@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script>
-	{
+{
 		let arr=['hello','world'];
 		let map=arr[Symbol.iterator]();
 	    console.log(map.next());
@@ -51,7 +43,3 @@
       	console.log(value);
       }
     }
-	</script>
-	
-</body>
-</html>

@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script>
-		{
+{
 			//简洁表示法
 			let o=1;
 			let k=2;
@@ -62,6 +54,3 @@
 			// 扩展运算符
 			let {a,b,...c}={a:'test',b:'kill',c:'ddd',d:'ccc'};
 		}
-	</script>
-</body>
-</html>

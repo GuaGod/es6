@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script>
-		{
+{
 			//声明
 			let a1=Symbol();
 			let a2=Symbol();
@@ -40,6 +32,3 @@
                 console.log('ownkeys',obj[item]);
             })
 		}
-	</script>
-</body>
-</html>

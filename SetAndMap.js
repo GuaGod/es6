@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script>
-		{
+{
 			let list =new Set();
 			list.add(5);
 			list.add(7);
@@ -95,6 +87,3 @@
 			//接收的key值必须是 对象
 		    //无size 不可遍历 无clear。。和weakset与set的区别一样
 		}
-	</script>
-</body>
-</html>
