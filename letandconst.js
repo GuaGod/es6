@@ -41,9 +41,5 @@ function f(){
 }
 f();
 */
-var a=[1,2,4];
-console.log(a.length);
-console.log(a[2]);
-a.length=2;
-console.log(a.length);
-console.log(a[2]);
+import * as test from './letandconst2';
+console.log('A',A);
