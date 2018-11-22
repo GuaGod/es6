@@ -1,11 +1,3 @@
-"use strict";
-
-var _babelPolyfill = require("babel-polyfill");
-
-var _babelPolyfill2 = _interopRequireDefault(_babelPolyfill);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 /*
 function *g(){
     yield 'a';
@@ -60,10 +52,6 @@ console.log(con.next());
 console.log(con.next());
 console.log(con.next());
 */
-var test = function test(n) {
-    return n * n;
-};
-var _ = 2,
-    foo = _ === undefined ? true : _;
-
+var test = n => n * n;
+var [foo = true] = [2];
 console.log(foo);
